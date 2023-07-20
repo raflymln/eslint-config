@@ -1,0 +1,53 @@
+{
+    "name": "@raflymln/eslint-config",
+    "version": "1.0.0",
+    "description": "Shareable ESLint configuration for Next.js, React, and TypeScript projects",
+    "main": "index.js",
+    "homepage": "https://github.com/raflymln/eslint-config#readme",
+    "repository": "https://github.com/raflymln/eslint-config",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": {
+        "email": "me@raflymaulana.me",
+        "name": "Rafly Maulana",
+        "url": "https://raflymaulana.me"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "prettier": {
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "endOfLine": "auto",
+        "htmlWhitespaceSensitivity": "css",
+        "bracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 200,
+        "semi": true,
+        "tabWidth": 4
+    },
+    "dependencies": {
+        "@types/node": "20.4.2",
+        "@types/react": "18.2.15",
+        "@types/react-dom": "18.2.7",
+        "@typescript-eslint/eslint-plugin": "^5.62.0",
+        "@typescript-eslint/parser": "^5.62.0",
+        "eslint-config-next": "13.4.10",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-no-relative-import-paths": "^1.5.2",
+        "eslint-plugin-prettier": "^5.0.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-tailwindcss": "^3.13.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.3"
+    },
+    "peerDependencies": {
+        "eslint": "8.45.0",
+        "prettier": "^3.0.0"
+    }
+}
