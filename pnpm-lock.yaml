@@ -2,9 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@raflymln/prettier-config': ^1.0.0
-  '@types/node': 20.4.2
-  '@types/react': 18.2.15
-  '@types/react-dom': 18.2.7
   '@typescript-eslint/eslint-plugin': ^5.62.0
   '@typescript-eslint/parser': ^5.62.0
   eslint: 8.45.0
@@ -20,7 +17,6 @@ specifiers:
   typescript: ^5.1.6
 
 dependencies:
-  '@types/react-dom': 18.2.7
   '@typescript-eslint/eslint-plugin': 5.62.0_tbbci4he2x65aggpp4j2oxxdvm
   '@typescript-eslint/parser': 5.62.0_ko3fmmbeyij36muomfgt2u76xu
   eslint-config-next: 13.4.10_ko3fmmbeyij36muomfgt2u76xu
@@ -33,8 +29,6 @@ dependencies:
 
 devDependencies:
   '@raflymln/prettier-config': 1.0.0_prettier@3.0.0
-  '@types/node': 20.4.2
-  '@types/react': 18.2.15
   eslint: 8.45.0
   prettier: 3.0.0
   tailwindcss: 3.3.3
@@ -190,29 +184,6 @@ packages:
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
-
-  /@types/node/20.4.2:
-    resolution: {integrity: sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==}
-    dev: true
-
-  /@types/prop-types/15.7.5:
-    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
-
-  /@types/react-dom/18.2.7:
-    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
-    dependencies:
-      '@types/react': 18.2.15
-    dev: false
-
-  /@types/react/18.2.15:
-    resolution: {integrity: sha512-oEjE7TQt1fFTFSbf8kkNuc798ahTUzn3Le67/PWjE8MAfYAD/qB7O8hSTcromLFqHCt9bcdOg5GXMokzTjJ5SA==}
-    dependencies:
-      '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.3
-      csstype: 3.1.2
-
-  /@types/scheduler/0.16.3:
-    resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
 
   /@types/semver/7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
@@ -587,9 +558,6 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
-
-  /csstype/3.1.2:
-    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
