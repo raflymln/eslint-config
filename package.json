@@ -18,21 +18,8 @@
         "access": "public"
     },
     "license": "MIT",
-    "prettier": {
-        "trailingComma": "es5",
-        "bracketSpacing": true,
-        "arrowParens": "always",
-        "endOfLine": "auto",
-        "htmlWhitespaceSensitivity": "css",
-        "bracketSameLine": false,
-        "jsxSingleQuote": false,
-        "printWidth": 200,
-        "semi": true,
-        "tabWidth": 4
-    },
+    "prettier": "@raflymln/prettier-config",
     "dependencies": {
-        "@types/node": "20.4.2",
-        "@types/react": "18.2.15",
         "@types/react-dom": "18.2.7",
         "@typescript-eslint/eslint-plugin": "^5.62.0",
         "@typescript-eslint/parser": "^5.62.0",
@@ -42,12 +29,23 @@
         "eslint-plugin-no-relative-import-paths": "^1.5.2",
         "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-react": "^7.32.2",
-        "eslint-plugin-tailwindcss": "^3.13.0",
-        "husky": "^8.0.3",
-        "lint-staged": "^13.2.3"
+        "eslint-plugin-tailwindcss": "^3.13.0"
+    },
+    "devDependencies": {
+        "@raflymln/prettier-config": "^1.0.0",
+        "@types/node": "20.4.2",
+        "@types/react": "18.2.15",
+        "eslint": "8.45.0",
+        "prettier": "^3.0.0",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.1.6"
     },
     "peerDependencies": {
+        "@types/node": "20.4.2",
+        "@types/react": "18.2.15",
         "eslint": "8.45.0",
-        "prettier": "^3.0.0"
+        "prettier": "^3.0.0",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.1.6"
     }
 }
