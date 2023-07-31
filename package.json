@@ -2,7 +2,7 @@
     "name": "@raflymln/eslint-config",
     "version": "1.0.0",
     "description": "Shareable ESLint configuration for Next.js, React, and TypeScript projects",
-    "main": "index.js",
+    "main": "index.json",
     "homepage": "https://github.com/raflymln/eslint-config#readme",
     "repository": "https://github.com/raflymln/eslint-config",
     "scripts": {
