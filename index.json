@@ -25,7 +25,7 @@
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
         "prefer-template": "error",
-        "eslint spaced-comment": ["error", "always"],
+        "spaced-comment": ["error", "always"],
         "yoda": "error",
         "@next/next/no-img-element": "off",
         "react/no-unescaped-entities": "off",
@@ -54,7 +54,6 @@
             }
         ],
         "@typescript-eslint/ban-types": "error",
-        "@typescript-eslint/no-duplicate-type-constituents": "error",
         "@typescript-eslint/no-extra-non-null-assertion": "error",
         "@typescript-eslint/no-import-type-side-effects": "error",
         "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
