@@ -14,7 +14,8 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "jsx": "preserve",
-        "incremental": true,
-        "types": ["@types/node", "@types/react"]
-    }
+        "incremental": true
+    },
+    "include": ["index.json"],
+    "exclude": ["node_modules", "build", "dist"]
 }
