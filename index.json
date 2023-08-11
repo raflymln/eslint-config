@@ -17,7 +17,6 @@
         "prettier/prettier": "error",
         "eqeqeq": ["error", "always"],
         "no-case-declarations": "error",
-        "multiline-comment-style": ["error", "starred-block"],
         "no-confusing-arrow": "error",
         "no-else-return": "error",
         "no-var": "error",
